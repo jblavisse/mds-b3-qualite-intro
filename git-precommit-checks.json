@@ -1,0 +1,27 @@
+{
+  "display": {
+    "notifications": true,
+    "offendingContent": true,
+    "rulesSummary": false,
+    "shortStats": true,
+    "verbose": false
+  },
+  "rules": [
+    {
+      "message": "You’ve got leftover conflict markers",
+      "regex": "/^[<>|=]{4,}/m"
+    },
+    {
+      "message": "Tu as oublié certaines tâches à faire",
+      "filter": "\\.js$",
+      "nonBlocking": "true",
+      "regex": "(?:FIXME|TODO)"
+    },
+    {
+      "message": "Attention, t'as du console log",
+      "filter": "\\.js$",
+      "nonBlocking": "true",
+      "regex": "console\\.log"
+    }
+  ]
+}

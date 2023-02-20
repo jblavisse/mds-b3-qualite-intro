@@ -1,4 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-echo "Je vais faire un commit! Incroyable"
+npx git-precommit-checks
