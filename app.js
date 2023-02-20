@@ -1,7 +1,7 @@
 /**
  * Fonction qui calcule des puissances de 2 selon un nombre n donné
  *
- * Cette fonction, c'est une tuerie de sa mère
+ * Cette fonction, c'est une tuerie de sa mèreuh
  * Ca défonce grave!
  *
  * @param {Number} n Le nombre de puissances
