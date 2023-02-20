@@ -36,3 +36,5 @@ const n = 10;
 
 const powers = calculatePowersOfTwo(n);
 printPowersOfTwo(powers);
+
+// TODO
